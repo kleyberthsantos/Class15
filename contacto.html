@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tu₿eTeCe.com</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="index.html">
+    <!-- font family P -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
+	<!-- font family h1 -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+	<!-- font family h2 -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap" rel="stylesheet">
+	<!-- font family p -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body id="contacto">
+    <main>
+        <h1>Contacto</h1>
+        <form action="">
+            <fieldset>
+                <legend><h2>Genera tu consulta</h2></legend>
+                <div>
+                    <label for="nombre">Nombre y Apellido:</label>
+                    <input type="text" name="nombre" required placeholder="Nombre y Apellido">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" required placeholder="nickemail@mail.com">
+                </div>
+                <div>
+                    <label for="tipo">Describe tu consulta
+                    <select name="tipo de urgencia" id="tipo" required>
+                    <option value="urgente">Urgente</option>
+                    <option value="muy urgente">Muy urgente</option>
+                    <option value="Demasiado urgente">Demasiado urgente</option>
+                    </select>
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <textarea name="mensajes" id="mensajes" cols="30" rows="10" placeholder="Detalla aquí tu consulta"></textarea>
+                </div>
+                <div>
+                    <label for="terminos">Aceptar términos</label>
+                    <input type="checkbox" name="terminos" id="terminos" required>
+                </div>
+                <br>
+                <div>
+                    <button>Borrar</button>
+                    <button>Enviar</button>
+                    <option value="borrar"></option>
+                    <option value="enviar"></option>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <br>
+    <br>
+    <div class="button">
+        <a href="index.html">
+        <button id="volver"><class class="fab fa-grav" id="iconvolver">
+        <h4>Home</h4></class></a>
+        </button>
+    </div>
+</body>
+</html>

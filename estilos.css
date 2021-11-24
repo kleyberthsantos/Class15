@@ -1,0 +1,346 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	color: rgb(255, 153, 0);
+	font-family: 'Major Mono Display', monospace;
+	text-shadow: 1px 2px rgb(255, 60, 0);
+	width: center;
+	text-align: center;
+}
+
+header{
+	text-align: center;
+	width: 100%;
+}
+
+ul {
+	list-style: none;
+}
+li {
+	display: inline-block;
+	width: 10%;
+	position:relative;
+	font-size: 20px;
+	color: black;
+}
+
+ul li a:hover {
+	color: rgb(255, 60, 0);
+	padding: 4px;
+}
+
+a {
+	text-decoration: none;
+	padding: 4px;
+	color: aqua;
+	font-family: 'Raleway', sans-serif;
+}
+
+body {
+	background: rgb(22,28,40);
+	background: -moz-linear-gradient(142deg, rgba(22,28,40,1) 75%, rgba(172,172,172,1) 100%);
+	background: -webkit-linear-gradient(142deg, rgba(22,28,40,1) 75%, rgba(172,172,172,1) 100%);
+	background: linear-gradient(142deg, rgba(22,28,40,1) 75%, rgba(172,172,172,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#161c28",endColorstr="#acacac",GradientType=1);
+	display: flex;
+	height: 800px;
+	flex-direction: column;
+	padding: 1em;
+}
+
+#main{
+	display: flex;
+	flex: 1;
+	flex-flow: row;
+	margin-top: 20px;
+}
+
+article {
+	background-color: pink;
+	height: 90%;
+}
+.part1 {
+	background-image: url(img/part1.webp);
+	background-size: cover;
+	background-position: center;
+}
+.part2 {
+	background-image: url(img/part2.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+.part3 {
+	background-image: url(img/part3.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+.part4 {
+	background-image: url(img/part4.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+
+article {
+	flex:1;
+	padding: 1rem;
+	margin:1px;
+}
+
+article:hover {
+	-webkit-transform:scale(0.5);transform:scale(1.1);
+}
+
+article h2 {
+	color: rgb(255, 60, 0);
+	text-shadow: 1px 2px aqua;
+	text-align:justify;
+	margin-top: 8%;
+	font-family: 'Raleway', sans-serif;
+}
+
+article h2 a {
+	color: rgb(255, 60, 0);
+	text-shadow: 1px 2px aqua;
+	text-align:justify;
+	margin-top: 8%;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+#dividir {
+	width: 100%;
+	height: 40%;
+	background-image: url(img/dividir.webp);
+	background-position: center;
+	background-size: cover;
+}
+
+#dividir p{
+	color: rgb(0, 1, 82);
+	margin-top: 3%;
+	margin-left: 50%;
+	margin-right: 2%;
+	text-align: right;
+	text-anchor: start;
+	font-family: 'Roboto', sans-serif;
+	text-shadow: 0.5px 0.7px rgb(70, 70, 70);
+}
+
+
+footer{
+	background: rgb(22,28,40);
+	background: -moz-linear-gradient(142deg, rgba(22,28,40,1) 75%, rgba(172,172,172,1) 100%);
+	background: -webkit-linear-gradient(142deg, rgba(22,28,40,1) 75%, rgba(172,172,172,1) 100%);
+	background: linear-gradient(142deg, rgba(22,28,40,1) 75%, rgba(172,172,172,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#161c28",endColorstr="#acacac",GradientType=1);
+	margin:1px;
+	width: auto;
+	height: auto;
+}
+
+footer h2 {
+	color: rgb(255, 60, 0);
+	text-shadow: 1px 2px aqua;
+	text-align:center;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+
+/* ¿que es bitcoin? */
+#definicion{
+	background: rgb(22,28,40);
+	background: -moz-linear-gradient(310deg, rgba(22,28,40,1) 13%, rgba(65,70,78,1) 45%, rgba(172,172,172,1) 90%);
+	background: -webkit-linear-gradient(310deg, rgba(22,28,40,1) 13%, rgba(65,70,78,1) 45%, rgba(172,172,172,1) 90%);
+	background: linear-gradient(310deg, rgba(22,28,40,1) 13%, rgba(65,70,78,1) 45%, rgba(172,172,172,1) 90%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#161c28",endColorstr="#acacac",GradientType=1);
+}
+.definicionHeader {
+	background-image: url(img/part1.webp);
+	background-position: center;
+	background-size: auto;
+	width: auto;
+	height: 30%;
+}
+.definicionHeader h1{
+	margin-top: 35%;
+}
+#mainDefinicion{
+	display: flex;
+	flex: 1;
+	flex-flow: row;
+	margin-top: 20px;
+}
+.mainDefinicion {
+	background: rgb(22,28,40);
+	background: -moz-linear-gradient(112deg, rgba(22,28,40,1) 13%, rgba(65,70,78,1) 45%, rgba(172,172,172,1) 90%);
+	background: -webkit-linear-gradient(112deg, rgba(22,28,40,1) 13%, rgba(65,70,78,1) 45%, rgba(172,172,172,1) 90%);
+	background: linear-gradient(112deg, rgba(22,28,40,1) 13%, rgba(65,70,78,1) 45%, rgba(172,172,172,1) 90%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#161c28",endColorstr="#acacac",GradientType=1);
+	height: 80%;
+}
+.mainDefinicion h2 {
+	text-align: center;
+}
+.mainDefinicion p {
+	text-align: justify;
+	color: aqua;
+	font-family: 'Roboto', sans-serif;
+	text-shadow: 0.5px 0.7px rgb(70, 70, 70);
+}
+
+
+/* Precio */
+#precio{
+	background: rgb(22,28,40);
+	background: -moz-linear-gradient(310deg, rgba(22,28,40,1) 13%, rgba(65,70,78,1) 45%, rgba(172,172,172,1) 90%);
+	background: -webkit-linear-gradient(310deg, rgba(22,28,40,1) 13%, rgba(65,70,78,1) 45%, rgba(172,172,172,1) 90%);
+	background: linear-gradient(310deg, rgba(22,28,40,1) 13%, rgba(65,70,78,1) 45%, rgba(172,172,172,1) 90%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#161c28",endColorstr="#acacac",GradientType=1);
+}
+
+#precio h2 {
+	color: rgb(255, 136, 0);
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	text-shadow: 0.7px 0.7px rgb(255, 60, 0);
+}
+
+
+/* comprar */
+#comprar {
+	background: rgb(22,28,40);
+	background: -moz-linear-gradient(0deg, rgba(22,28,40,1) 21%, rgba(65,70,78,1) 49%, rgba(172,172,172,1) 100%);
+	background: -webkit-linear-gradient(0deg, rgba(22,28,40,1) 21%, rgba(65,70,78,1) 49%, rgba(172,172,172,1) 100%);
+	background: linear-gradient(0deg, rgba(22,28,40,1) 21%, rgba(65,70,78,1) 49%, rgba(172,172,172,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#161c28",endColorstr="#acacac",GradientType=1);
+}
+
+.comprarHeader {
+	background-image: url(img/part3.jpeg);
+	background-position: center;
+	background-size: cover;
+	width: auto;
+	height: 30%;
+}
+.comprarHeader h1{
+	margin-top: 35%;
+}
+#mainComprar{
+	display: flex;
+	flex: 1;
+	flex-flow: row;
+	margin-top: 20px;
+}
+.mainComprar {
+	background: rgb(22,28,40);
+	background: -moz-linear-gradient(157deg, rgba(22,28,40,1) 0%, rgba(65,70,78,1) 26%, rgba(172,172,172,1) 100%);
+	background: -webkit-linear-gradient(157deg, rgba(22,28,40,1) 0%, rgba(65,70,78,1) 26%, rgba(172,172,172,1) 100%);
+	background: linear-gradient(157deg, rgba(22,28,40,1) 0%, rgba(65,70,78,1) 26%, rgba(172,172,172,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#161c28",endColorstr="#acacac",GradientType=1);
+	height: 100%;
+}
+.mainComprar h4{
+	color: rgb(57, 234, 247);
+	text-shadow: 1px 2px rgb(255, 60, 0);
+	text-align: auto;
+	font-family: 'Raleway', sans-serif;
+}
+.mainComprar p {
+	text-align: justify;
+	color: rgb(255, 255, 255);
+	font-family: 'Roboto', sans-serif;
+	text-shadow: 0.5px 0.7px rgb(70, 70, 70);
+}
+
+/* billetera */
+#billetera{
+	background: rgb(22,28,40);
+	background: -moz-linear-gradient(310deg, rgba(22,28,40,1) 13%, rgba(65,70,78,1) 45%, rgba(172,172,172,1) 90%);
+	background: -webkit-linear-gradient(310deg, rgba(22,28,40,1) 13%, rgba(65,70,78,1) 45%, rgba(172,172,172,1) 90%);
+	background: linear-gradient(310deg, rgba(22,28,40,1) 13%, rgba(65,70,78,1) 45%, rgba(172,172,172,1) 90%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#161c28",endColorstr="#acacac",GradientType=1);
+}
+
+.billetera {
+	background-image: url(img/buda.png);
+	background-position: center;
+	background-size: cover;
+	width: auto;
+	height: 30%;
+}
+
+#billetera h2 {
+	color: rgb(26, 40, 240);
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	text-shadow: 0.7px 0.7px rgb(218, 218, 218);
+}
+
+#billetera p {
+	text-align: center;
+	color: aqua;
+	font-family: 'Roboto', sans-serif;
+	text-shadow: 0.5px 0.7px rgb(70, 70, 70);
+}
+
+.budaVista {
+	background-image: url(img/budavista.jpg);
+	background-size: cover;
+	background-position: center;
+	width: auto;
+	height: 50%;
+}
+
+
+/* contacto */
+
+#contacto h2 {
+	color: rgb(255, 136, 0);
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	text-shadow: 0.7px 0.7px rgb(255, 60, 0);
+}
+label {
+	text-align: justify;
+	color: rgb(255, 255, 255);
+	font-family: 'Roboto', sans-serif;
+	text-shadow: 0.5px 0.7px rgb(70, 70, 70);
+}
+
+
+
+
+
+/* boton volver */
+.button{
+    margin: 50%;
+    margin-left: 40%;
+    text-align: center;
+    height: 100px;
+}
+#volver h4 {
+    color: rgb(226, 147, 0);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Mitr', sans-serif;
+}
+
+.button {
+    margin: 1rem;
+}
+
+button {
+	width: 150px;
+	height: 50px;
+	background-color: rgb(185, 185, 185);
+}
+button h4{
+	text-justify: distribute;
+	word-spacing: 2px;
+}
